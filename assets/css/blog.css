@@ -1,0 +1,68 @@
+.navbar {
+    background-color: #25353c;
+    border: none; /* Remove the default border */
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Custom navbar-toggler button */
+.custom-toggler {
+    background: none;
+    border: none;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+/* Styling for the bars in the hamburger icon */
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #faf8f8;
+}
+
+/* Header*/
+
+.custom-header {
+    background: url('assets/images/blog/new.gif'); /* Image background */
+    padding: 80px 0; /* Adjust padding as needed */
+}
+
+.custom-header h1 {
+    font-size: 3rem; /* Adjust the font size for the header text */
+}
+
+.custom-header p {
+    font-size: 1.5rem; /* Adjust the font size for the subtext */
+}
+
+/* section */
+.section {
+    padding-top: 10px;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Searchbar*/
